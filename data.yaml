@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [20, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+nc: 1
+names: ['squat']
+
+roboflow:
+  workspace: healthcare-cditm
+  project: healthcare-pann5
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/healthcare-cditm/healthcare-pann5/dataset/6
